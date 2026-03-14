@@ -88,7 +88,7 @@ function SortableTh({
   )
 }
 
-export default function ReviewScreen({ fileName, onConfirm, onCancel }: ReviewScreenProps) {
+export default function ReviewScreen({ onConfirm, onCancel }: ReviewScreenProps) {
   const [rows, setRows] = useState<EmployeeRow[]>(MOCK_ROWS)
   const [activeFilter, setActiveFilter] = useState<FilterTab>('all')
   const [sortColumn, setSortColumn] = useState<SortColumn | null>(null)
