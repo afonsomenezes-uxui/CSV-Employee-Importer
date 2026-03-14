@@ -105,12 +105,14 @@ export default function UploadScreen({ onUpload }: UploadScreenProps) {
 
             {fileName ? (
               <div className="flex flex-col items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center">
-                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-                    <rect x="2" y="1" width="13" height="18" rx="1.5" stroke="#16a34a" strokeWidth="1.4"/>
-                    <line x1="5.5" y1="6.5" x2="12" y2="6.5" stroke="#16a34a" strokeWidth="1.2" strokeLinecap="round"/>
-                    <line x1="5.5" y1="9.5" x2="12" y2="9.5" stroke="#16a34a" strokeWidth="1.2" strokeLinecap="round"/>
-                    <line x1="5.5" y1="12.5" x2="9" y2="12.5" stroke="#16a34a" strokeWidth="1.2" strokeLinecap="round"/>
+                <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center shrink-0">
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" className="shrink-0">
+                    <g transform="translate(2.5, 1)">
+                      <rect x="2" y="1" width="13" height="18" rx="1.5" stroke="#2563eb" strokeWidth="1.4"/>
+                      <line x1="5.5" y1="6.5" x2="12" y2="6.5" stroke="#2563eb" strokeWidth="1.2" strokeLinecap="round"/>
+                      <line x1="5.5" y1="9.5" x2="12" y2="9.5" stroke="#2563eb" strokeWidth="1.2" strokeLinecap="round"/>
+                      <line x1="5.5" y1="12.5" x2="9" y2="12.5" stroke="#2563eb" strokeWidth="1.2" strokeLinecap="round"/>
+                    </g>
                   </svg>
                 </div>
                 <div>
